@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import './index.css'
 import App from './App';
-import Home from './pages/home';
+import Home from './pages/Home';
 
 const router = createBrowserRouter([
   {
