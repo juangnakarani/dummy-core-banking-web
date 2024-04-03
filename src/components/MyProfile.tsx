@@ -196,7 +196,7 @@ export default function MyProfile() {
                     type="email"
                     startDecorator={<EmailRoundedIcon />}
                     placeholder="email"
-                    defaultValue="siriwatk@test.com"
+                    defaultValue="juang.nakarani@gmail.com"
                     sx={{ flexGrow: 1 }}
                   />
                 </FormControl>

@@ -2,7 +2,7 @@
 import { CssVarsProvider } from '@mui/joy/styles';
 import CssBaseline from '@mui/joy/CssBaseline';
 import Box from '@mui/joy/Box';
-import Sidebar from '../components/Sidebar';
+// import Sidebar from '../components/Sidebar';
 import Header from '../components/Header';
 import MyProfile from '../components/MyProfile';
 import './Home.css'
@@ -12,7 +12,7 @@ export default function JoyOrderDashboardTemplate() {
     <CssVarsProvider disableTransitionOnChange>
       <CssBaseline />
       <Box sx={{ display: 'flex', minHeight: '100dvh' }}>
-        <Sidebar />
+        {/* <Sidebar /> */}
         <Header />
         <Box
           component="main"
